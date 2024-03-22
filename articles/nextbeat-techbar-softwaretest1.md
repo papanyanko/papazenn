@@ -9,7 +9,7 @@ published: true
 
 # 自動テスト実行結果の目的を整理する by [@t_wada](https://twitter.com/t_wada)
 
-https://x.com/t_wada/status/1771154561023013316
+https://speakerdeck.com/twada/organizing-objectives-of-automated-test-results
 
 ## ひとこと要約
 
@@ -127,10 +127,11 @@ https://x.com/tomohisa/status/1771128615176204449
 全体としてどう振る舞うかのテストはまだ必要
 フラグを持たないことによる型の自己文書化と型が増えることによる複雑化のトレードオフがある
 
-Union型があるとパターンマッチングで網羅性、完全性をコンパイルでチェックできるので便利
+原著者はフラグのチェックやテストの個数を減らすことのメリットを強調していたがこんな声も
 https://x.com/ratmie1/status/1771125668337873255
 
-原著者はフラグのチェックやテストの個数を減らすことのメリットを強調していたが
+Union型があるとパターンマッチングで網羅性、完全性をコンパイルでチェックできるので便利
+
 https://x.com/uechang16/status/1771125844402176303
 
 関数型にすることで色々なところの影響が減って1つ1つの処理に集中できるというところもある
