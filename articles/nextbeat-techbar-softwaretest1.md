@@ -9,6 +9,8 @@ published: true
 
 # 自動テスト実行結果の目的を整理する by [@t_wada](https://twitter.com/t_wada)
 
+https://x.com/t_wada/status/1771154561023013316
+
 ## ひとこと要約
 
 https://x.com/tomohisa/status/1771118045379060076
