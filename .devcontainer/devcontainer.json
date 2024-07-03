@@ -74,9 +74,5 @@
     // Todo Tree
     // https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
     "gruntfuggly.todo-tree",
-
-    // Japanese Language Pack for Visual Studio Code
-    // https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja
-    "ms-ceintl.vscode-language-pack-ja"
   ]
 }

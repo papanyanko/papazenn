@@ -10,13 +10,6 @@
     "editor.snippetSuggestions": "top"
   },
 
-  // Zenn theme
-  "workbench.colorCustomizations": {
-    "editor.background": "#fff",
-    "statusBar.background": "#0d83fd",
-    "sideBar.background": "#EDF2F7"
-  },
-
   // Zenn `published_at` format
   "insertDateString.format": "YYYY-MM-DD hh:mm",
 
