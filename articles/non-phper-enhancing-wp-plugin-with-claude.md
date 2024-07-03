@@ -61,17 +61,17 @@ https://zenn.dev/papanyanko/articles/free-blog-with-notion
 
 $\KaTeX$を読み込むスクリプトが書けたので試しにWordPressのエディタで記事を作って動作確認する。これが導入前。
 
-![](![](https://storage.googleapis.com/zenn-user-upload/bc0848c8b77e-20240704.png))
+![KaTeX導入前](/images/before_katex.png)
 
 スクリプトを追加し、pushする。
 
-![](![](https://storage.googleapis.com/zenn-user-upload/7de1b49ee0a4-20240704.png))
+![KaTeX導入後](/images/after_katex.png)
 
 ちゃんと反映された。と思ったら特大落とし穴があった。
 
 Markdownで改行を含む式を書いてWordPress REST APIでPOSTすると...
 
-![](![](https://storage.googleapis.com/zenn-user-upload/242d5fa34d24-20240704.png))
+![displayスタイルの数式がパースできてない](/images/before_multiline_display_math.png)
 
 なんじゃこりゃあああああ！！！
 
@@ -101,7 +101,7 @@ WordPressにMarkdownをパースさせるとすると何かしらコードを書
 
 よさそうなコードができあがったのでzipに固めたのをアップロードして適用してみる...
 
-![](![](https://storage.googleapis.com/zenn-user-upload/f0afc2cbc91e-20240704.png))
+![displayスタイル対応後](/images/after_multiline_display_math.png)
 
 やったああああああああ！！！
 
