@@ -1,8 +1,8 @@
 ---
 title: "Node.jsのモジュール解決とnpm workspacesにおけるモノレポ参照の仕組み"
-emoji: ""
+emoji: "🔍"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["npm", "typescript"]
+topics: ["npm", "nodejs", "typescript", "javascript"]
 published: true
 ---
 
