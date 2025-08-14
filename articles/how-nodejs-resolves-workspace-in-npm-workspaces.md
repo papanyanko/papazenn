@@ -32,7 +32,7 @@ Node.jsでは、`require('foo')` のようにモジュール名が渡された�
 
 > **ポイント：** Node.jsはディレクトリ構造を「現在地から上に向かって」探していく
 
-## 2. npm workspaces の動作
+## 2. npm workspacesの動作
 
 npm workspacesは、モノレポ構成で複数パッケージを一括管理する仕組みです。
 
