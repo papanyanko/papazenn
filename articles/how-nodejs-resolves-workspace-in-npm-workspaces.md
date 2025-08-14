@@ -30,7 +30,9 @@ Node.jsでは、`require('foo')` のようにモジュール名が渡された�
 /node_modules/foo
 ```
 
-> **ポイント：** Node.jsはディレクトリ構造を「現在地から上に向かって」探していく
+:::message
+**ポイント：** Node.jsはディレクトリ構造を「現在地から上に向かって」探していく
+:::
 
 ## 2. npm workspacesの動作
 
@@ -55,7 +57,9 @@ npm workspacesは、モノレポ構成で複数パッケージを一括管理す
         └── package.json
 ```
 
-> **ポイント：** npm workspacesは各ワークスペースパッケージをルートの `node_modules` にシンボリックリンクとして配置する
+:::message
+**ポイント：** npm workspacesは各ワークスペースパッケージをルートの `node_modules` にシンボリックリンクとして配置する
+:::
 
 ## 3. モノレポで他パッケージを参照できる理由
 
