@@ -40,8 +40,8 @@ npm workspacesは、モノレポ構成で複数パッケージを一括管理す
 
 - ルートの `package.json` に `"workspaces"` フィールドを設定
 - ルートで `npm install` を実行すると
-  - 共通依存を**ルートの `node_modules`**にhoist（集約）
-  - 各ワークスペースパッケージを**ルートの `node_modules` にシンボリックリンク**として配置（こちらが重要）
+  - 共通依存をルートの `node_modules` にhoist（集約）
+  - 各ワークスペースパッケージを**ルートの `node_modules` にシンボリックリンク**として配置
 
 ディレクトリ例：
 
